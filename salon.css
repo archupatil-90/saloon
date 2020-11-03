@@ -4,14 +4,14 @@ body{
 }
 .headersection{
     width:100%;
-   height:824px;
+   
 }
 
 .headersection .navbar{
     width:100%;
-    position:fixed;
-    top:0;
-    left: 0;
+    position:top;
+    /* top:0;
+    left: 0; */
     height:120px;
     /* padding:0 15px; */
     background-color: #1e1e1e;
@@ -63,32 +63,96 @@ body{
    
     text-align: center;
 }
+
 .headersection .slider1{
     width:100%;
-   padding-top: 107px;
+    height: 173vh;
+  background-image: url(imag/Slider2.jpg);
+  background-position: top right;
+
+}
+.whyus{
+    height:129vh;
+    background-image: url(http://glammbeautystudio.com/img/intro-bg.jpg);
+    background-position: top;
+}
+
+.whyus .header{
+    width:800px;
+    height:500px;
+    padding: 10% 10% 5%;
+}
+.whyus .header h1{
+    font-size: 70px;
+    font-weight: normal;
+    
+}
+span{
+    font-size: 20px;
+    margin-bottom: 60px;
+    color: #7e7e7e;
+    line-height: 1.8;
+}
+.whyus .icon{
+    width:200px;
+    height:150px;
+}
+
+.services{
+    height:100vh;
+    width:100%;
+    background-color: #cfa417;
+}
+.testimonial{
+    height:90vh;
+    width:100%;
+    background-image:url(http://glammbeautystudio.com/img/review-bg.jpg) ;
+    background-size: cover;
 
 }
 .aboutsection{
     width:100%;
-    height:100vh;
+  
     position: relative;
 
+}
+.abouthead{
+    width:100%;
+    height:258vh;
 }
 .aboutsection .img1{
     width:100%;
     height:225px;
-    background-position-x: -230px;
+    background-position:top;
     background-image: url(imag/abt.jpg);
     
+}
+.aboutsection .img1 h2{
+    font-size: 50px;
+    color: white;
+    position: absolute;
+    top: 85px;
+    left: 547px;
+    font-weight: normal;
+}
+.aboutsection .img1 h2::before{
+    content: '';
+    width: 70px;
+    height: 7px;
+    border-bottom: 5px solid #cfa417;
+    position: absolute;
+    left: 70px;
+    top: -37px
 }
 .aboutsection h2{
     text-align: center;
     font-size: 50px;
     color: white;
-    position: relative;
+    position: absolute;
     top:125px;
     font-weight: normal;
 }
+
 .aboutsection .cardwrapper{
     width:85%;
     margin: auto;
@@ -136,8 +200,140 @@ body{
     font-weight: normal;
 }
 .aboutsection .cardwrapper .image{
-    width:50%;
+    width:560px;
+    float: left;
+    
+}
+.aboutsection .cardwrapper .rghtimg .subdiv{
+    background-color: f6f6f6;
+    padding-left: 5%;
+    padding-bottom: 7%;
+    
+}
+
+.aboutsection .cardwrapper .rghtimg .subdiv .btn1{
+    max-width: 200px;
+    height:40px;
+    background-color: #cfa417;
+    margin-left: 8%;
+    font-family:'Bellota', cursive;
+    color: white;
+    border: none;
+    font-size: 17px;
+}
+/* footer section */
+.footersection{
+    width:100%;
+   
+ 
+   
+}
+.footerimg{
+
+   height:100%;
+    background-image: url(imag/footer-bg.jpg);
+    background-position: bottom;
+
+}
+.footersection .leftfoot{
+    width:19%;
+    height:100%;
+    padding: 10% 5% 5% 5%;
+   
     float: left;
 }
 
+.footerimg .centrefoot{
+    width:25%;
+    padding-top:10%;
+    float: left;
+    padding-left: 20px;
+   
+
+
+}
+.footersection .rightfoot{
+    width: 35%;
+    padding-top: 10%;
+    float: left;
+    padding: 10% 0% 5% 5%;
+    
+}
+.footersection h4{
+    font-size: 26px;
+    color:white;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+.footersection ul{
+    float: left;
+    width:120px;
+    padding-left: 0px;
+}
+.footersection ul li{
+    list-style-type: none;
+    margin-bottom: 12px;
+ 
+   
+}
+
+
+.footersection ul li a{
+    color:#838383;
+    margin-bottom: 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+
+}
+.footersection ul li a:hover{
+    color:#CFA417;
+}
+
+.footercontent{
+    font-size: 17px;
+    
+    line-height: 30px;
+    color: #838383;
+    
+}
+.footertext{
+    color: #838383;
+    height: 39px;
+    border: none;
+    margin: 10px 10px 10px 10px;
+    width: 210px;
+       display: inline;
+    background: transparent;
+    border-bottom: 1px solid;
+    font-family:'Bellota', cursive;
+    text-transform: capitalize;
+    font-size: 15px;
+
+}
+.footertext:last-child{
+    height:100px;
+    width:445px;
+    padding-bottom: 20px;
+}
+.footersection .btn{
+    width:150px;
+    height:50px;
+    border: none;
+    text-align: center;
+    background-color:#CFA417;
+    color:white;
+    margin-left: 10px;
+}
+
+.icon{
+   
+   
+    padding-top: 50px;
+}
+.icon a{
+    color: #CFA417;
+    font-size: 1em;
+   padding: 0px 10px;
+
+}
  

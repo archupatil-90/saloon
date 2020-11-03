@@ -73,42 +73,130 @@ body{
 }
 .whyus{
     height:129vh;
-    background-image: url(http://glammbeautystudio.com/img/intro-bg.jpg);
+    background-image: url(imag/intro-bg.jpg);
     background-position: top;
 }
 
 .whyus .header{
     width:800px;
-    height:500px;
-    padding: 10% 10% 5%;
+   
+    padding: 10% 10% 0%;
 }
-.whyus .header h1{
+ h1{
     font-size: 70px;
     font-weight: normal;
     
 }
 span{
     font-size: 20px;
-    margin-bottom: 60px;
+    
     color: #7e7e7e;
-    line-height: 1.8;
+    line-height: 1.5;
+}
+.iconsection{
+      padding: 0% 10% 0%;
+
 }
 .whyus .icon{
-    width:200px;
+    width:260px;
     height:150px;
+    float: left;
+}
+.whyus .icon .img{
+    width:90px;
+    height:90px;
+}
+.icon h2{
+    font-weight: bold;
+    font-size: 48px;
+    margin: 0;
+}
+.icon p{
+    font-size: 15px;
+    margin: 0;
 }
 
+
+
 .services{
-    height:100vh;
+    height:140vh;
     width:100%;
     background-color: #cfa417;
 }
+
+.services .head{
+    width: 90%;
+    padding: 5% 5% 0%;
+    color: white;
+}
+.services h2{
+    font-size: 74px;
+    margin: 0;
+    font-weight: normal;
+}
+.services .content{
+    max-width: 367px;
+    height: 150px;
+    /* float: left; */
+    display: inline-block;
+    padding: 5% 0% 5% 2%;
+    color: white;
+    text-align: center;
+}
+.services .content:first-child{
+    padding-left: 0px;
+}
+h3{
+    font-size: 40px;
+    margin: 0;
+    margin-bottom: 15px;
+    font-weight: normal;
+}
+.services .content p{
+    font-size: 18px;
+    margin: 0;
+}
 .testimonial{
-    height:90vh;
+    height:100vh;
     width:100%;
-    background-image:url(http://glammbeautystudio.com/img/review-bg.jpg) ;
+    background-image:url(imag/review-bg.jpg) ;
     background-size: cover;
 
+}
+.testimonial .head{
+    width: 800px;
+    padding: 5% 10% 0%;
+}
+.testimonial p{
+    font-size: 20px;
+    font-style: italic;
+    margin-bottom: 50px;
+    line-height: 1.5;
+
+}
+.testimonial footer{
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    background-image: url(imag/review-author.jpg);
+    background-size: cover;
+    float: left;
+}
+ 
+.author-info{
+    width: 200px;
+    float: left;
+    margin-left: 35px;
+}
+.testimonial .author-info h4{
+    margin: 0;
+    color: black;
+        font-size: 20px;
+       text-transform: uppercase;
+}
+.testimonial .author-info span{
+    font-size: 18px;
+    color: #cfa417;
 }
 .aboutsection{
     width:100%;
@@ -118,7 +206,7 @@ span{
 }
 .abouthead{
     width:100%;
-    height:258vh;
+    height:259vh;
 }
 .aboutsection .img1{
     width:100%;
@@ -205,7 +293,7 @@ span{
     
 }
 .aboutsection .cardwrapper .rghtimg .subdiv{
-    background-color: f6f6f6;
+    background-color: #f6f6f6;
     padding-left: 5%;
     padding-bottom: 7%;
     
@@ -224,7 +312,7 @@ span{
 /* footer section */
 .footersection{
     width:100%;
-   
+   /* height:120vh; */
  
    
 }
@@ -336,4 +424,43 @@ span{
    padding: 0px 10px;
 
 }
+nav{
+   
+   
+    
+    position: absolute;
+    bottom: 2px;
+    right:130px;
+    
+}
+.footersection nav ul li{
+    display: inline;
+}
+
+.footersection nav ul li a{
+    text-decoration: none;
+    color:#838383;
+    padding:0px 20px;
+
+}
+.footersection nav ul {
+
+    list-style-type: none;
+    float: left;
+    width:100%;
+    
+    
+   
+
+}
+.footersection nav ul li{
+    display: inline-block;
+    font-size: 18px;
+   
+   
+   
+   
+
+}
+
  
